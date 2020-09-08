@@ -1,0 +1,49 @@
+#welcome {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, span {
+    margin: 0;
+}
+
+h1 {
+  font-size: 16rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+span {
+    font-size: 6rem;
+}
+
+.container {
+    max-width: 550px;
+    height: 100vh;
+    border: 8px solid black;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+    padding: 25px 5px;
+}
+
+.degrees {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+#city {
+    font-size: 4rem;
+}
+
+#description {
+    font-size: 3rem;
+}
